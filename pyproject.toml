@@ -34,6 +34,12 @@ testing = [
 [project.scripts]
 windowsget_pdm = "windowsget_pdm.cli:main"
 
+[project.urls]
+"Bug Tracker" = "https://github.com/c17hawke/windowsget_pdm/issues"
+"Documentation" = "https://c17hawke.github.io/windowsget_pdm/"
+"Homepage" = "https://c17hawke.github.io/windowsget_pdm/"
+"Source" = "https://github.com/c17hawke/windowsget_pdm"
+
 [tool.pytest.ini_options]
 testpaths = [
     "tests"
