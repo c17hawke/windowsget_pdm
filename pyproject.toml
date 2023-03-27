@@ -1,6 +1,6 @@
 [build-system]
-requires = ["pdm-pep517>=1.0.0"]
-build-backend = "pdm.pep517.api"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "windowsget_pdm"
@@ -19,6 +19,10 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
 ]
+[options]
+package_dir = "src"
+
+
 [project.optional-dependencies]
 testing = [
     "black>=22.8.0",
@@ -38,5 +42,7 @@ testpaths = [
 [tool.mypy]
 mypy_path = "src"
 ignore_missing_imports = true
-[tool.pdm]
-package-dir = "src"
+
+[tool.flake8]
+max-line-length = 160
+exclude = "__init__.py"
