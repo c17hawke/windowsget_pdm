@@ -21,7 +21,7 @@ def download(url: str, filepath: Path) -> int:
     Raises:
         HTTPError: If the HTTP status code is not 200 (OK).
     """
-    response = requests.get(url, timeout=2)
+    response = requests.get(url, timeout=3)
 
     # Check if the HTTP status code is OK (200)
     if response.status_code == 200:
