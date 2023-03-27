@@ -1,0 +1,12 @@
+notebook
+py-youtube
+ensure
+mkdocs-material
+ipywidgets
+tqdm
+python-dotenv
+pip-chill
+types-requests
+requests
+pdm
+-e .
