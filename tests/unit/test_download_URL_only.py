@@ -5,11 +5,11 @@ from requests.exceptions import HTTPError
 import os
 
 correct_urls = [
-    "https://raw.githubusercontent.com/c17hawke/raw_data/main/interactions.csv"
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data"
 ] 
 
 bad_urls = [
-    "https://raw.githubusercontent.com/c17hawke/raw_data/main/interactions",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing",
     "https://raw.githubusercontent.com/c17hawke/raw_data/main/xyz"
 ]
 

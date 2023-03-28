@@ -7,13 +7,13 @@ import shutil
 
 
 correct_filepaths = [
-    ("https://raw.githubusercontent.com/c17hawke/raw_data/main/interactions.csv", "x/y/test.csv"),
-    ("https://raw.githubusercontent.com/c17hawke/raw_data/main/interactions.csv", "example.csv"),
+    ("https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data", "x/y/test.csv"),
+    ("https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data", "example.csv"),
 ] 
 
 bad_filepaths = [
-    ("https://raw.githubusercontent.com/c17hawke/raw_data/main/interactions.csv", "x/y/test"),
-    ("https://raw.githubusercontent.com/c17hawke/raw_data/main/interactions.csv", "example"),
+    ("https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data", "x/y/test"),
+    ("https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data", "example"),
 ]
 
 
